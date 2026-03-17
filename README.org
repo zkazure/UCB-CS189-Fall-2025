@@ -2,4 +2,12 @@
 
 UCB 的机器学习课程。
 
-run ~jupyter-noetbook~ to write homework. 
+run ~jupyter-noetbook~ to write homework.
+
+homework.
+#+begin_src python
+  uv venv
+  uv pip install -r requirements.txt
+  uv pip install notebook
+  uv run jupyter notebook
+#+end_src
